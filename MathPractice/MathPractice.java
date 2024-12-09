@@ -16,7 +16,7 @@ public class MathPractice {
         // Equation 2: Compound Interest
         System.out.println("\nEquation 2: Compound Interest Calculation.");
         System.out.print("Enter Principal (P): ");
-        double P = scanner.nextInt();
+        double P = scanner.nextDouble();
         System.out.print("Enter Annual Interest Rate (r as a decimal): ");
         double r = scanner.nextDouble();
         System.out.print("Enter Number of Compounds per Year (n): ");
